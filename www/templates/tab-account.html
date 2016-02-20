@@ -6,18 +6,27 @@
 	<br>
 	<center><h3> Enable Special Service </h3></center>
 	
-    <ion-toggle  ng-model="settings.Police">
-        Enable Police Contact
-    </ion-toggle>
-	<ion-toggle  ng-model="settings.Lyft">
-		<img src="http://i.imgur.com/4lRRZzA.png"><br>
-        Enable Lyft
-    </ion-toggle>
-	<ion-toggle  ng-model="settings.Facebook">
-		Enable Facebook
-    </ion-toggle>
-    </ion-list>
-	
+	<div id="specialservice">
+		<ion-toggle  ng-model="settings.Police">
+			<div class="cat-image">
+				<img src="http://i.imgur.com/TFIBiSz.png">
+			</div><br>
+			<p>Enable Police Contact</p>
+		</ion-toggle>
+		<ion-toggle  ng-model="settings.Lyft">
+			<div class="cat-image">
+				<img src="http://i.imgur.com/4lRRZzA.png">
+			</div><br>
+			<p>Enable Lyft</p>
+		</ion-toggle>
+		<ion-toggle  ng-model="settings.Facebook">
+			<div class="cat-image">
+				<img src="http://i.imgur.com/3ftzgl1.png">
+			</div><br>
+			<p>Enable Facebook</p>
+		</ion-toggle>
+		</ion-list>
+	</div>
 	<br><br>
 	
   </ion-content>

@@ -11,3 +11,24 @@
 #account-background {
 	background: #ffdab9;
 }
+
+#specialservice {
+	
+}
+
+.cat-image {
+	width: 50px;
+	height: auto;
+	background-color: transparent;
+	background-size: cover;
+	display: block;
+	margin-left: 50px;
+}
+
+.cat-image img {
+	width: 100%;
+}
+
+.cat-image p {
+	font-size: 10px;
+}
