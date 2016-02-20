@@ -1,1 +1,13 @@
-/* Empty. Add your own CSS if you like */
+/* .background {
+	background: url("img/neko-background.png") no-repeat;
+	background-size: cover;
+}*/
+
+.background {
+	background: url("http://i.imgur.com/IHcQ6DR.png");
+	background-size: cover;
+}
+
+#account-background {
+	background: #ffdab9;
+}
