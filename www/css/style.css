@@ -16,20 +16,43 @@
 	
 }
 
-.cat-image {
+.special-cats {
 	width: 50px;
 	height: auto;
 	background-color: transparent;
 	background-size: cover;
 	display: block;
-	margin-left: 50px;
+	margin-left: 60px;
 }
 
-.cat-image img {
+.special-cats img {
 	width: 100%;
 }
 
-.cat-image p {
-	text-align: center;
-	font-size: 10px;
+#specialservice p {
+	color: #ef473a;
+	padding-left: 20px;
+	text-align: justify;
+	font-size: 15px;
+}
+
+#specialservice p:nth-of-type(2) {
+	text-align:center;
+}
+
+#emergencycats {
+	
+}
+
+.contacts-cat {
+	width: 60px;
+	height: auto;
+	background-color: transparent;
+	background-size: cover;
+	display: block;
+	margin: auto;
+}
+
+.contacts-cat img {
+	width: 100%;
 }
