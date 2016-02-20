@@ -23,6 +23,8 @@ angular.module('starter.controllers', [])
 
 .controller('AccountCtrl', function($scope) {
   $scope.settings = {
-    enableFriends: true
+    Police: true,
+	Lyft: true,
+	Facebook: true
   };
 });
