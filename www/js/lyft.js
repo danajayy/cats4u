@@ -74,7 +74,7 @@ function requestRide(){
 				"Authorization": "Bearer "+t,
 				"Content-Type": "application/json"
 			},
-			//dataType: 'json',
+			dataType: 'jsonp',
 			//contentType: "application/json",
 			success: function(response){
 				console.log("Got info! "+ response);
